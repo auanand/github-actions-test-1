@@ -1,4 +1,4 @@
-# This is a basic workdflow file to get you started with Actions
+# This is a basic workflow file to get you started with Actions
 name: First Workflow
 
 # Controls when the workflow will run
@@ -20,10 +20,10 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    
-   # The steps that will be executed by the job
+
+    # The steps that will be executed by the job
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v4
 
       # Run a one-line script   
       - name: Run a one-line script
